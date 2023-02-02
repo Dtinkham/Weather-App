@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"   href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>Weather DashBoard</header>
+
+    <div id="search-card">
+    <header2>Search for a City</header2>
+        <form onsubmit="onSubmit()">
+            <label for="city-input">Choose a City!</label>
+            <input type="text" id="city-input" value="">
+            <button for="city-input" type="button"  id="input-button">Search</button>
+        </form>
+    </div>
+
+    <div id="recently-viewed">Recently Viewed:</div>
+
+    <div id="current-weather">Current Weather:</div>
+    
+    <div id="current-weather-results"></div>
+    
+    <div id="5-day-forecast">5 Day Forecast:</div>
+
+    <div id="5-day-forecast-results"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
